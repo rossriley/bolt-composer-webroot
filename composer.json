@@ -1,0 +1,37 @@
+{
+    "name": "ross/boltcomposer",
+    "require": {
+        "bolt/bolt": "dev-composer-install-imporovements"
+    },
+    "authors": [
+        {
+            "name": "Ross Riley",
+            "email": "riley.ross@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    
+    "scripts": {
+        "post-install-cmd": [
+            "Bolt\\Composer\\ScriptHandler::installAssets"
+        ],
+        "post-update-cmd": [
+            "Bolt\\Composer\\ScriptHandler::installAssets"
+        ]
+    },
+    
+    "extra":{
+        "bolt-web-dir": "./"
+    },
+    
+    "repositories": [{
+        "type": "vcs",
+        "url": "git://github.com/rossriley/bolt/bolt.git"
+    }],
+    
+    "autoload": {
+        "files": ["vendor/bolt/bolt/app/lib.php"]
+    }
+    
+    
+}
