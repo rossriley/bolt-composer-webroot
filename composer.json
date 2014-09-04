@@ -1,7 +1,7 @@
 {
-    "name": "ross/boltcomposer",
+    "name": "rossriley/boltcomposer",
     "require": {
-        "bolt/bolt": "dev-composer-install-imporovements"
+        "bolt/bolt": "dev-master"
     },
     "authors": [
         {
