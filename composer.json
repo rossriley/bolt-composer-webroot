@@ -21,7 +21,7 @@
     },
     
     "extra":{
-        "bolt-web-dir": "./"
+        "bolt-web-dir": "./public"
     },
     
     "autoload": {
