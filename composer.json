@@ -24,11 +24,6 @@
         "bolt-web-dir": "./"
     },
     
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/rossriley/bolt"
-    }],
-    
     "autoload": {
         "files": ["vendor/bolt/bolt/app/lib.php"]
     }
