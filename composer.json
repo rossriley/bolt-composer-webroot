@@ -1,5 +1,5 @@
 {
-    "name": "rossriley/boltcomposer",
+    "name": "rossriley/boltcomposer-webroot",
     "require": {
         "bolt/bolt": "dev-master"
     },

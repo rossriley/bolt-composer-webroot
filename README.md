@@ -1,3 +1,9 @@
-Install Bolt as a Composer Package
+Install Bolt as a Web-Root Composer Package
 =============
 
+This skeleton installs the Bolt app outside of the web root, with a public directory to handle
+public assets.
+
+To install:
+
+`composer create-project rossriley/boltcomposer-webroot mybolt-project`
