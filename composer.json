@@ -26,6 +26,12 @@
     
     "autoload": {
         "files": ["vendor/bolt/bolt/app/lib.php"]
+    },
+    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0"
+        }
     }
     
     
