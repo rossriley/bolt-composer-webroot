@@ -1,5 +1,7 @@
 {
     "name": "rossriley/boltcomposer-webroot",
+    "description": "Handles an install of Bolt with public assets and Bolt assets in separate root directories.",
+    "license": "MIT",
     "require": {
         "bolt/bolt": "dev-master"
     },
@@ -28,7 +30,8 @@
         "branch-alias": {
             "dev-master": "2.1-dev"
         },
-        "bolt-web-dir": "./public"
+        "bolt-web-dir": "./public",
+        "bolt-app-dir": "./app"
     }
     
     
